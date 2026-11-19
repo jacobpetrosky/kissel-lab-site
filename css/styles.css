@@ -1,0 +1,59 @@
+header{
+    margin: 2%;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: skyblue;
+}
+
+a.active{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.btn{
+    padding: 0rem;
+    border-radius: 6px;
+    color: black;
+    background-color:red;
+    padding: .5rem 3rem;
+    text-decoration: none;
+}
+
+
+
+
+.btn:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.box-buttons{
+    margin: 1%;
+}
+
+button.active{
+    padding: 0rem;
+    border-radius: 6px;
+    padding: .5rem 3rem;
+    color: white;
+    background-color: purple;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.buttons button{
+   align-items: center;
+}
+
+
+
